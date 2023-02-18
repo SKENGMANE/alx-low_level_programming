@@ -1,4 +1,5 @@
 A directory to learn the programming language C
+---
 [0-preprocessor](https://github.com/SKENGMANE/alx-low_level_programming/blob/master/0x00-hello_world/0-preprocessor)
 * A script that runs a C file through the preprocessor and save the result into another file.
   * The C file name will be saved in the variable `$CFILE`
@@ -24,7 +25,7 @@ A directory to learn the programming language C
 ---
 [5-printf.c](https://github.com/SKENGMANE/alx-low_level_programming/blob/master/0x00-hello_world/5-printf.c)
 * A C program that prints exactly `with proper grammar, but the outcome is a piece of art,`, followed by a new line.
-  * Program returns '0'
+  * Program returns `0`
 ---
 [6-size.c](https://github.com/SKENGMANE/alx-low_level_programming/blob/master/0x00-hello_world/6-size.c)
 * A C program that prints the size of various types on the computer it is compiled and run on.
