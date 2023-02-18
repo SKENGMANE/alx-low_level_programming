@@ -1,4 +1,5 @@
-A folder containing tasks to aid thr learning of loops in C
+A folder containing tasks to aid the learning of loops in C
+---
 [0-positive_or_negative.c](https://github.com/SKENGMANE/alx-low_level_programming/blob/538ca7c531d5d4c2a8ac24bf37db2762490a9ecb/0x01-variables_if_else_while/0-positive_or_negative.c)
 * This program will assign a random number to the variable `n`
   * You can find the source code [here](https://github.com/holbertonschool/0x01.c/blob/master/0-positive_or_negative_c)
