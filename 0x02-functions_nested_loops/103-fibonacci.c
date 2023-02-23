@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include"main.h"
 
 /**
  * main - Entry point
@@ -10,21 +10,26 @@
  * Return: Always 0 (Success)
 */
 
-
 int main(void)
 {
-	int sum = 0;
-	int first = 1, second = 2, next;
+	unsingned long int fib1 = 0, fib2 = 1, sum = 0;
+	int total_sum;
+	
 
-	while (second <= 400000)
+	while 
 	{
-		if (second % 2 == 0)
-			sum += second;
-		next = first + second;
-		first = second;
-		second = next;
+		sum = fib1 + fib2;
+
+		if (sum > 4000000)
+			break;
+
+		if ((sum % 2) == 0)
+			total_sum += sum;
+
+		fib1 = fib2;
+		fib2 = sum;
 	}
-	printf("%d\n", sum);
+	printf("%d\n", total_sum);
 
 	return (0);
 }
