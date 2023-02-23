@@ -13,7 +13,8 @@
 
 int main(void)
 {
-	int first = 1, second = 2, next, sum = 0;
+	int sum = 0;
+	int first = 1, second = 2, next;
 
 	while (second <= 400000)
 	{
