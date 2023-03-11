@@ -1,1 +1,1 @@
-argc: Argument count & argv: Argument Vector
+A repository to learn C
