@@ -20,7 +20,6 @@ int main(int argc, char *argv[])
 	int num_coins = 0;
 	int coins[5] = {25, 10, 5, 2, 1};
 	int i;
-	
 
 	if (argc != 2)
 	{
