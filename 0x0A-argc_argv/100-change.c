@@ -27,15 +27,15 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
+	cents = atoi(argv[1]);
+
 	if (cents < 0)
 	{
 		printf("0\n");
 		return (0);
 	}
 
-	 cents = atoi(argv[1]);
-
-	for (i = 0; cents && i < 5; i++)
+	for (i = 0; i < 5; i++)
 	{
 		num_coins += cents / coins[i];
 		cents %= coins[i];
